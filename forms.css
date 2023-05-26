@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 95%; 
+    background-color:#cccc;
+}
+
+h1{
+    font-size: 20px;
+    margin: 3px;
+    margin-bottom: 20px;
+}
+
+div{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input{
+    display: grid;
+    margin-right: 2px;
+    padding: 5px 5px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+}
+
+div #dob{
+    display: inline;
+    width: auto;
+}
+
+div #gender{
+    display: inline;
+    width: auto;
+}
+
+div #tnc{
+    display: inline;
+    margin-top: 10px;
+    width: auto;
+}
+
+.select{
+    padding: 3px;
+}
+
+#message{
+    display: flex;
+    height: 150px;
+    width: 250px;
+    padding: 3px;
+    margin-top: 5px;
+    border: none;
+}
+
+#submit{
+    padding:3px 20px;
+    background-color: rgb(60, 60, 99);
+    color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 90px;
+}
+
+#submit:hover{
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (min-width: 540px){
+    #message{
+        display: flex;
+        height: 150px;
+        width: 350px;
+        padding: 3px;
+        margin-top: 5px;
+        border: none;
+    }
+    
+    input{
+        display: grid;
+        margin-right: 2px;
+        padding: 5px 5px;
+        width: 250px;
+        border-radius: 0;
+        border: none;
+    }
+    
+    div #dob{
+        display: inline;
+        width: 130px;
+    }
+
+    div #tnc{
+        display: inline;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    div #gender{
+        display: inline;
+        width: auto;
+    }
+
+    #submit{
+        padding:3px 20px;
+        background-color: rgb(60, 60, 99);
+        color: whitesmoke;
+        border: 1px solid black;
+        border-radius: 12px;
+        width: 90px;
+    }
+
+    #submit:hover{
+        background-color: transparent;
+        color: black;
+    }
+}
